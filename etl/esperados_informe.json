@@ -1,0 +1,23 @@
+{
+  "_nota": "Valores impresos en el informe oficial EPCI 2025 que /explora debe reproducir. tol = diferencia máxima admitida en porcentaje (el informe trunca o redondea a 2 decimales). Cada vez que se corrija un valor del informe, se añade aquí.",
+  "meta": {"total_n": 3684, "total_form": 4009, "no_autorizaron": 301, "sin_vinculo": 24, "localidades": 20},
+  "distribuciones": [
+    {"figura": "Figura 2", "clave": "sd_genero", "base": 3684, "tol": 0.011, "filas": {
+      "Femenino": [2022, 54.89], "Masculino": [1628, 44.19], "No binario": [5, 0.14],
+      "Prefiero no responder": [23, 0.62], "Transfemenino": [3, 0.08], "Transmasculino": [3, 0.08]}},
+    {"figura": "Figura 6", "clave": "sd_servidor", "base": 3684, "tol": 0.011, "filas": {
+      "Nací en Bogotá": [2479, 67.29], "Nací en otro Municipio de Colombia": [917, 24.89]}},
+    {"figura": "Figura 46", "clave": "sg_q9", "base": 218, "tol": 0.011, "filas": {"Sí": [144, 66.06], "No": [74, 33.94]}},
+    {"figura": "Pregunta de control 2024", "clave": "sd_control_2024", "base": 3684, "tol": 0.011, "filas": {"Sí": [1324, 35.94]}},
+    {"figura": "Figura 45", "clave": "sg_q5", "base": 525, "tol": 0.011, "filas": {"Otro (respuestas ciudadanas abiertas)": [60, 11.43]}}
+  ],
+  "tablas": [
+    {"figura": "Tabla 4", "clave": "sd_municipio", "base": 177, "filas": 11},
+    {"figura": "Figura 4", "clave": "sd_ocupacion", "filas": 12},
+    {"figura": "Tabla 5", "clave": "ci_alcalde_localidad", "ranking": 21, "bogota_region": {"n": 177, "promedio": 6.78, "porcentaje": 4.8}}
+  ],
+  "ocupacion": {"Servidores distritales": 1833, "Ciudadanía": 1851},
+  "figuras_especiales": ["ci_alcalde_localidad", "fig_06", "fig_46", "fig_56", "fig_58", "fig_59", "fig_64", "tabla_12"],
+  "matrices_5_niveles": ["cr_q1_matrix", "cr_q3_matrix", "ci_q10_matrix"],
+  "diferencias_conocidas": ["Tabla 3", "Tabla 4", "Figura 1", "Figura 3", "Figura 5", "Figura 7", "Tabla 5", "Figura 8", "Tabla 8", "Tabla 10", "Tabla 11", "Figura 41", "Figura 45", "Figura 57", "Figura 66"]
+}

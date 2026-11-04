@@ -1,0 +1,27 @@
+# Datos binarios de MySQL (se regeneran con docker compose desde mysql/init + mysql/seed)
+mysql/data/
+
+# Dependencias y builds
+node_modules/
+web/dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Config local de Claude Code (las reglas compartidas .claude/settings.json y hooks SÍ se versionan)
+.claude/settings.local.json
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+*.swp
