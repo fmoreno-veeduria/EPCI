@@ -1,0 +1,9 @@
+{
+  "name": "Encuesta de Percepción de Confianza Institucional 2025",
+  "description": "Resultados de la Encuesta de Percepción de Confianza Institucional 2025 de la Veeduría Distrital de Bogotá. Explora datos interactivos por módulo y aprende con Tula.",
+  "prompt": "Rewrite the EPCI project as a React application preserving all core features and business logic.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
